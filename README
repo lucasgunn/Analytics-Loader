@@ -1,0 +1,15 @@
+Load Analytics when YOU want
+
+Does anyone else notice that when Analytics lags, it 
+stops your scripts that are waiting for domready?
+
+I've attempted to negate this by forcing analytics to 
+load when I say, after my scripts have initialised.
+
+So, hopefully, when Analytics does have one it's 
+infamous lag times, my scripts have already kicked in
+and the user is none the wiser.
+
+Note: yes, this may result in some lost data, but 
+personally, I'll take that over the user thinking 
+my site is slow.
