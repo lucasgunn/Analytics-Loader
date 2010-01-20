@@ -1,0 +1,2 @@
+(function(){function f(a){var g=("https:"==c.location.protocol?"https://ssl.":"http://www.")+"google-analytics.com/ga.js",h=c.getElementsByTagName("head")[0],d=c.createElement("script");d.setAttribute("type","text/javascript");d.setAttribute("src",g);h.appendChild(d);e(a)}function e(a){typeof b._gat=="undefined"?setTimeout(function(){return function(){e(a)}()},50):i(a)}function i(a){b.pageTracker=_gat._getTracker(a);b.pageTracker._initData();b.pageTracker._trackPageview()}var b=window,c=document;
+b._load_analytics=function(a){f(a)}})();

@@ -1,5 +1,7 @@
 Load Analytics when YOU want
 
+Requires: you must be using the new analytics style code
+
 Does anyone else notice that when Analytics lags, it 
 stops your scripts that are waiting for domready?
 

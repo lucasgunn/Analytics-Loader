@@ -1,11 +1,12 @@
 /**
- * @author lucas
+ * @author lucas@pieui.com
  */
 
 (function() {
 	var w = window;
 	var d = document;
-		
+	
+	// Expose a global method
 	w._load_analytics = function(in_id) {
 		attach_script(in_id);
 	};
@@ -23,7 +24,9 @@
 	function check_analytics(account_id) {
 		if(typeof w['_gat'] == 'undefined') {
 			setTimeout(function() {
-				check_analytics(account_id);
+				return (function() {
+					check_analytics(account_id);
+				})();
 			},50);
 		} else {
 			start_analytics(account_id);
